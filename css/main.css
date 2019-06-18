@@ -70,8 +70,7 @@ h4,
   margin-bottom: 1.4rem;
 }
 
-@media only screen and (max-width:600px) {
-
+@media only screen and (max-width: 600px) {
   h1,
   .h1,
   h2,
@@ -91,8 +90,7 @@ h1,
   letter-spacing: -0.15rem;
 }
 
-@media only screen and (max-width:600px) {
-
+@media only screen and (max-width: 600px) {
   h1,
   .h1 {
     font-size: 3.3rem;
@@ -225,12 +223,12 @@ form {
 
 @keyframes pulse {
   0% {
-    transform: scale(0)
+    transform: scale(0);
   }
 
   100% {
     transform: scale(1);
-    opacity: 0
+    opacity: 0;
   }
 }
 
@@ -261,7 +259,7 @@ form {
 }
 
 .subhead::before {
-  content: "/ ";
+  content: "// ";
   display: inline-block;
   right: 1.15rem;
   position: relative;
@@ -372,7 +370,7 @@ form {
   color: #ffffff;
 }
 
-.home-content h1+p {
+.home-content h1 + p {
   font-family: "Titillium Web", sans-serif;
   font-size: 3.6rem;
   line-height: 1.42;
@@ -382,7 +380,7 @@ form {
   position: relative;
 }
 
-.home-content h1+p::before {
+.home-content h1 + p::before {
   content: "";
   display: block;
   width: 7.5rem;
@@ -476,7 +474,7 @@ html.loaded .home-content__main {
     font-size: 8.8rem;
   }
 
-  .home-content h1+p {
+  .home-content h1 + p {
     font-size: 3.6rem;
   }
 
@@ -504,11 +502,11 @@ html.loaded .home-content__main {
     font-size: 9.8rem;
   }
 
-  .home-content h1+p {
+  .home-content h1 + p {
     font-size: 3rem;
   }
 
-  .home-content h1+p::before {
+  .home-content h1 + p::before {
     top: 2.4rem;
   }
 
@@ -522,13 +520,13 @@ html.loaded .home-content__main {
     font-size: 7.8rem;
   }
 
-  .home-content h1+p {
+  .home-content h1 + p {
     font-size: 2.4rem;
     padding-right: 2rem;
     padding-left: 8rem;
   }
 
-  .home-content h1+p::before {
+  .home-content h1 + p::before {
     width: 5.5rem;
     top: 1.8rem;
   }
@@ -578,12 +576,12 @@ html.loaded .home-content__main {
     font-size: 5.5rem;
   }
 
-  .home-content h1+p {
+  .home-content h1 + p {
     font-size: 2.2rem;
     padding-right: 0;
   }
 
-  .home-content h1+p::before {
+  .home-content h1 + p::before {
     top: 1.6rem;
   }
 
@@ -597,12 +595,12 @@ html.loaded .home-content__main {
     font-size: 5.4rem;
   }
 
-  .home-content h1+p {
+  .home-content h1 + p {
     padding-top: 3rem;
     padding-left: 0;
   }
 
-  .home-content h1+p::before {
+  .home-content h1 + p::before {
     left: 0;
     top: 0;
   }
@@ -629,7 +627,7 @@ html.loaded .home-content__main {
     font-size: 5rem;
   }
 
-  .home-content h1+p {
+  .home-content h1 + p {
     padding-top: 2.8rem;
   }
 
@@ -643,7 +641,7 @@ html.loaded .home-content__main {
     font-size: 4.6rem;
   }
 
-  .home-content h1+p {
+  .home-content h1 + p {
     padding-top: 2.4rem;
   }
 }
@@ -657,7 +655,7 @@ html.loaded .home-content__main {
     font-size: 4.2rem;
   }
 
-  .home-content h1+p {
+  .home-content h1 + p {
     padding-top: 2.1rem;
   }
 
@@ -803,7 +801,7 @@ html.loaded .home-content__main {
 }
 
 .page-projects .project-item a:before {
-  content: '';
+  content: "";
   display: block;
   padding-bottom: 75%;
 }
@@ -851,7 +849,6 @@ html.loaded .home-content__main {
 }
 
 @media (min-width: 1200px) {
-
   .page-projects .project-item a .project-name,
   .page-projects .project-item a .project-intro {
     font-size: 3rem;
@@ -884,7 +881,8 @@ html.loaded .home-content__main {
   background-position: center center;
   background-repeat: no-repeat;
   opacity: 0;
-  transition: transform 400ms cubic-bezier(0.7, 0, 0.3, 1) 0ms, opacity 800ms cubic-bezier(0.7, 0, 0.3, 1);
+  transition: transform 400ms cubic-bezier(0.7, 0, 0.3, 1) 0ms,
+    opacity 800ms cubic-bezier(0.7, 0, 0.3, 1);
 }
 
 .page-projects .project-item a .project-visual {

@@ -971,7 +971,7 @@ html.loaded .home-content__main {
 .contact-email {
   display: inline-block;
   font-family: "Titillium Web", sans-serif;
-  font-size: 4.4rem;
+  font-size: 2.4rem;
   line-height: 1.222;
   color: #ffffff;
   padding-top: 1.4rem;
@@ -1093,7 +1093,7 @@ html.loaded .home-content__main {
   }
 
   .contact-email {
-    font-size: 5rem;
+    font-size: 2.4 rem;
   }
 
   .contact-social {

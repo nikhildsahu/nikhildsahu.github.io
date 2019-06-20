@@ -1,3 +1,3 @@
-# stanleeniko.github.io
+# nikhildsahu.github.io
 My personal website
-[Visit](https://stanleeniko.github.io/)
+[Visit](https://nikhildsahu.github.io/)

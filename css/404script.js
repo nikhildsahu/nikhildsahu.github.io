@@ -199,7 +199,7 @@
 $(function() {
   $(".text").typed({
     strings: [
-      "404 <br /> ^1000" +
+      "404 <br /> ^500" +
         "Oops! It looks like you're lost. <br /> ^1000" +
         "Sorry about that. <br /> ^1000" +
         "Let me try and help. <br /> ^1000" +

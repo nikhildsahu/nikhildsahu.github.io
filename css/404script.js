@@ -203,7 +203,7 @@ $(function() {
         "Oops! It looks like you're lost in this Space. <br /> ^1000" +
         "Sorry about that. <br /> ^1000" +
         "Let me try and help. <br /> ^1000" +
-        "Go back <a href='/'>home</a> and start over."
+        "Let's go back <a href='/'>home</a> and start over."
     ],
     typeSpeed: 0,
     showCursor: false

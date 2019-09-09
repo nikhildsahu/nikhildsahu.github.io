@@ -200,7 +200,7 @@ $(function() {
   $(".text").typed({
     strings: [
       "404 <br /> ^1000" +
-        "Oops! It looks like you're lost. <br /> ^1000" +
+        "Oops! It looks like you're lost in this Space. <br /> ^1000" +
         "Sorry about that. <br /> ^1000" +
         "Let me try and help. <br /> ^1000" +
         "Go back <a href='/'>home</a> and start over."

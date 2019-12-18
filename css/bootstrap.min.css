@@ -1251,3 +1251,18 @@
   transition: 0.3s;
   background-color: #11abb0;
 }
+.project__used__item {
+  display: inline-block;
+  margin: 3px 3px 3px 0;
+  font-family: Inconsolata, monospace;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 3px;
+  color: #007bff;
+  border: 1px solid #007bff;
+  background: 0 0;
+}
+.project__used__item:first-of-type {
+  margin-left: 0;
+}

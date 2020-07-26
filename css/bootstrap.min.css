@@ -1244,7 +1244,7 @@
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-.mh-service .mh-service-item:hover .btn {
+.mh-service .mh-service-item .btn:hover {
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
   -webkit-transition: 0.3s;

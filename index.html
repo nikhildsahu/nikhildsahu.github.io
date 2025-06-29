@@ -79,8 +79,10 @@
 <body>
    <!-- Job Change Banner Start -->
 <div id="job-banner" style="width:100%;background:#222;color:#fff;padding:10px 0;position:fixed;top:0;left:0;z-index:9999;overflow:hidden;text-align:center;">
-  <div class="job-banner-track">
-    🚀 <b>Nikhil is looking for a job change</b> &mdash; Will be happy to connect for it! &nbsp;|&nbsp; Reach out on <a href="https://www.linkedin.com/in/nikhil-sahu" target="_blank" rel="noopener">LinkedIn</a> or <a href="mailto:hi@nikhilsahu.me">Email</a> 🚀
+  <div class="job-banner-track-wrapper">
+    <div class="job-banner-track">
+      🚀 <b>Nikhil is looking for a job change</b> &mdash; Will be happy to connect for it! &nbsp;|&nbsp; Reach out on <a href="https://www.linkedin.com/in/nikhil-sahu" target="_blank" rel="noopener">LinkedIn</a> or <a href="mailto:hi@nikhilsahu.me">Email</a> 🚀
+    </div>
   </div>
   <div class="job-banner-resume">
     <a href="./NikhilSahu.pdf" target="_blank" rel="noopener" style="color:#ffd700;text-decoration:underline;font-weight:bold;">📄 Resume </a>
@@ -94,12 +96,22 @@
     font-size: 1.1em;
     line-height: 1.5;
   }
+  .job-banner-track-wrapper {
+    width: 100vw;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  .job-banner-track-wrapper::-webkit-scrollbar {
+    display: none;
+  }
   .job-banner-track {
     white-space: nowrap;
-    overflow: hidden;
+    overflow: visible;
     animation: scroll-left 24s linear infinite;
-    width: 100%;
-    display: block;
+    min-width: 700px;
+    display: inline-block;
   }
   .job-banner-resume {
     margin-top: 2px;
@@ -108,6 +120,15 @@
   @keyframes scroll-left {
     0% { transform: translateX(100%); }
     100% { transform: translateX(-100%); }
+  }
+  @media (max-width: 600px) {
+    #job-banner {
+      font-size: 0.95em;
+      padding: 7px 0 6px 0;
+    }
+    .job-banner-track {
+      min-width: 900px;
+    }
   }
 </style>
 <!-- Job Change Banner End -->
@@ -190,7 +211,7 @@
 
             <p>Software Developer — with 4+ years of experience turning complex data problems into clean, scalable solutions.
                I enjoy combining my technical knowledge with my keen eye for
-               perfection to create awesome things.I everyday try to learn new things to improve my skills & efficiency.
+               perfection to create awesome things.
             </p>
             <p>
                <span style="color:#ffffff"> When I'm not writing code</span>, I enjoy photography ( <a target="_blank"
